@@ -1,0 +1,37 @@
+{% load staticfiles %}
+
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="shortcut icon" type="image/x-icon" href="psnek.ico" />
+
+	<title>nicole</title>
+</head>
+
+<body>
+<div id="page-wrap">
+
+    <div id="title-area">
+        <h1><span style="color: #10d608">Nicole</span> Rocha</h1>
+    </div>
+
+	<div id="menu">
+		<div id="d1" class="dropdown" style="cursor:pointer;" onclick="document.location='../collegeCareerReadiness/'"> College and Career Readiness</div>
+	        <!-- <div class="dropdown-content">
+	            <span style="cursor:pointer;" onclick="document.location='../CCR1'"> Mentor </span>
+	            <span style="cursor:pointer;" onclick="document.location='../CCR2'"> Intellectual Challenge </span>
+	            <span style="cursor:pointer;" onclick="document.location='../CCR3'"> Feedback & Response </span> </div> </div> -->
+
+		<div id="d2" class="dropdown" style="cursor:pointer;" onclick="document.location='../communityConnections/'"> Community Connections</div>
+
+		<div id="d3" class="dropdown" style="cursor:pointer;" onclick="document.location='../interdisciplinaryConnections/'"> Interdisciplinary Connections</div>
+
+		<div id="d4" class="dropdown" style="cursor:pointer;" onclick="document.location='../rigorousThinking/'"> Rigorous Thinking</div>
+	</div>
+
+	{% block content %}
+	{% endblock %}
+</div>
+</body>
+
+</html>
