@@ -7,7 +7,7 @@ p { margin: 0 0 15px 0; font-size: 20px auto; color: #262626; font-family: RW; }
 
 #title-area { color: #262626; font-family: RE; margin: 0 auto; text-align: center; padding: 25px; padding-top: 5px; font-size: 30px; }
 
-#title1 { font-family: RE; margin: 0 auto; text-align: left; padding: 25px; font-size: 40px; color: #3ed339;}
+#title1 { font-family: RE; margin: 0 auto; text-align: left; padding: 25px; font-size: 40px; color: #3ed339; display: inline-block;}
 
 @font-face { font-family: CI; src: url('../fonts/CURIOUS-INCIDENT.ttf'); }
 @font-face { font-family: leixo; src: url('../fonts/LEIXO.ttf'); }
