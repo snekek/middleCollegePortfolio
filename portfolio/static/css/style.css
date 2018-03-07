@@ -7,7 +7,7 @@ p { margin: 0 0 15px 0; font-size: 20px auto; color: #262626; font-family: RW; }
 
 #title-area { color: #262626; font-family: RE; margin: 0 auto; text-align: center; padding: 25px; padding-top: 5px; font-size: 30px; }
 
-#title1 { font-family: RE; margin: 0 auto; text-align: left; padding: 25px; font-size: 40px; color: #3ed339; display: inline-block;}
+#title1 { font-family: RE; margin: 0 auto; text-align: left; padding: 25px; font-size: 40px; color: #3ed339; display: table;}
 
 @font-face { font-family: CI; src: url('../fonts/CURIOUS-INCIDENT.ttf'); }
 @font-face { font-family: leixo; src: url('../fonts/LEIXO.ttf'); }
@@ -18,13 +18,13 @@ p { margin: 0 0 15px 0; font-size: 20px auto; color: #262626; font-family: RW; }
 #pic1,#pic2 {border-color: #262626; border-radius: 10px; border-width: 5px; background-color: #262626; }
 #text1,#text2 { color: #262626; font-size: 20px auto; font-family: RW; }
 
-#main1 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: inline-block;}
+#main1 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: table;}
 #pic1 { float: right; }
 #text1 { float: left; margin: 0 0 15px 0; text-align: left; }
 
 #pic1,#pic2,#text1,#text2 {width: 45%; margin:1%; margin-bottom: 3%}
 
-#main2 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: inline-block;}
+#main2 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: table;}
 #pic2 { float: left; }
 #text2 { float: right; margin: 0 0 15px 0; text-align: left; }
 
