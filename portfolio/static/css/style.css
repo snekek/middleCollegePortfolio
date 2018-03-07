@@ -7,9 +7,9 @@ p { margin: 0 0 15px 0; font-size: 20px auto; color: #262626; font-family: RW; }
 
 #title-area { color: #262626; font-family: RE; margin: 0 auto; text-align: center; padding: 25px; padding-top: 5px; font-size: 30px; }
 
-#title1, #title2, #title3 { font-family: RE; margin: 0 auto; text-align: left; font-size: 40px; color: #3ed339; display: table; margin-bottom: 1%;}
-#title2, #title3 { margin-top: 5%; }
-#title1 { margin-top: 5%; }
+#title1, #title2, #title3 { font-family: RE; margin: 0 auto; text-align: left; font-size: 40px; color: #3ed339; display: table; margin-bottom: 7px;}
+#title2, #title3 { margin-top: 4%; }
+#title1 { margin-top: 4%; }
 
 @font-face { font-family: CI; src: url('../fonts/CURIOUS-INCIDENT.ttf'); }
 @font-face { font-family: leixo; src: url('../fonts/LEIXO.ttf'); }
