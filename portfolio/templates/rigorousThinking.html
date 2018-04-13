@@ -3,13 +3,23 @@
 {% block content %}
 <style>#d4 {border-left-style: solid; border-left-width: 1px; color: #10d608; border-color: #10d608; }</style>
 
-
 <div> <p id="title1"> Evidence </p></div>
 <div id="main1">
     <p id="text1">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla sapien, volutpat nec purus at, ultricies suscipit metus. Quisque ultrices pharetra magna ut elementum. Ut hendrerit felis sit amet justo blandit, nec semper enim suscipit. Aliquam mollis, turpis sit amet scelerisque tincidunt, mi nulla commodo quam, sed lacinia dui arcu quis urna. Praesent luctus tempor arcu at gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer quis tincidunt urna, ac tempus diam. Nulla condimentum, nulla vitae sodales dictum, purus tellus auctor lorem, in suscipit nunc lorem nec sapien.
+        In engineering 100, we were given 3 weeks to make an Arduino project. An Arduino is a small computer. In my group, I was the only person that has worked with Arduinos before or knows how to code.
+        I wasn't familiar with the language that Arduinos use (C), but the syntax is similar enough to Java so I figured it out.
+        The difficult part was deciding on the project we're making. At first, I was having trouble guiding my group members towards a realistic goal. The first idea we considered was a cube made of LEDs that would light up the LEDs in patterns.
+        I came to the conclusion that this idea would be almost impossible with this timeframe because:
+        Each LED would need to connect to one pin on the Arduino board. There are only 20 pins we could use for this. If we made the cube 3x3x3, which is already smaller than they wanted, it still wouldn't fit. Because 3^3 is 27 LEDs, and we didn't have that many pins availible.
+        There is a workaround for this. We could've bought a little board that would allow us to use have more pins, but we didn't have time to wait for it to be shipped to us.
+
+        The next idea they came up with was:
+        Using motion sensors to light up LEDs in a ring.
+
+
+
     </p>
-    <img src="{% static 'pret.jpg' %}" id="pic1"/>
+    <img src="{% static 'arduino.jpg' %}" id="pic1"/>
 </div>
 <div id="main2">
     <p id="text2">
