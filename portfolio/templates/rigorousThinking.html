@@ -3,44 +3,28 @@
 {% block content %}
 <style>#d4 {border-left-style: solid; border-left-width: 1px; color: #10d608; border-color: #10d608; }</style>
 
-<div> <p id="title1"> Evidence </p></div>
+<div> <p id="title1"> ENGR 100 Design Project </p></div>
 <div id="main1">
     <p id="text1">
-        In engineering 100, we were given 3 weeks to make an Arduino project. An Arduino is a small computer. In my group, I was the only person that has worked with Arduinos before or knows how to code.
+        In engineering 100, we were given 3 weeks to make an Arduino project. An Arduino is a small computer. In my group, I was the only person that has worked with Arduinos before or knows how to code at all. As a result, I had to determine whether
         I wasn't familiar with the language that Arduinos use (C), but the syntax is similar enough to Java so I figured it out.
-        The difficult part was deciding on the project we're making. At first, I was having trouble guiding my group members towards a realistic goal. The first idea we considered was a cube made of LEDs that would light up the LEDs in patterns.
-        I came to the conclusion that this idea would be almost impossible with this timeframe because:
-        Each LED would need to connect to one pin on the Arduino board. There are only 20 pins we could use for this. If we made the cube 3x3x3, which is already smaller than they wanted, it still wouldn't fit. Because 3^3 is 27 LEDs, and we didn't have that many pins availible.
-        There is a workaround for this. We could've bought a little board that would allow us to use have more pins, but we didn't have time to wait for it to be shipped to us.
-
-        The next idea they came up with was:
-        Using motion sensors to light up LEDs in a ring.
-
-
-
+        The difficult part was deciding on the project we're making. At first, I was having trouble guiding my group members towards a realistic goal. We looked at arduino project youtube videos for ideas. The first one we considered was a cube made of LEDs that would light up the LEDs in patterns.
+        <br/><br/>
+        I came to the conclusion that this idea would be almost impossible with this timeframe. Each LED needs to connect to one pin on the Arduino board. There are only 20 pins we could use for this. One pin has to be used for a button, so there's 19 left. If we made the cube 3x3x3, which is already smaller than they wanted, it still wouldn't fit. Because 3^3 is 27 LEDs, and we didn't have that many pins availible.
+        There is a workaround for this. We could've bought a little board that would allow us to use have more pins, but we didn't have time to wait for it to be shipped to us. We also could have doubled up on some LEDs. Meaning that two LEDs would have to light up at the same time. But that limits the patterns we could make.
+        <br/><br/>
+        We talked to our professor after class and he told us he has some proximity sensors. So the next idea they came up with was putting LEDs in a ring, paired up with a proximity sensor, that would light up when the proximity sensor is activated.
+        <br/>
+        For this plan to work, we would need to use one pin for each sensor as well as for each LED. This means we could only have a maximum of 9 LEDs. I suggested putting them in a straight line, so it would be easier to turn on individual LEDs. A few days later the plan shifted into putting LEDs with proximity sensors on a set of stairs.
     </p>
-    <img src="{% static 'arduino.jpg' %}" id="pic1"/>
+
+    <img src="{% static 'arduino.png' %}" id="pic1"/>
 </div>
 <div id="main2">
     <p id="text2">
-        Pellentesque semper tellus magna, vel ullamcorper metus laoreet ut. Mauris suscipit faucibus vulputate. Duis in purus nibh. Integer pharetra semper maximus. Sed rhoncus nibh et turpis pulvinar commodo. Cras a consectetur sem, vitae pellentesque nulla. Sed sed arcu id leo ornare auctor vitae at enim. Ut quis tellus leo. Ut ut interdum nisi. Suspendisse at dapibus sapien, sed consectetur elit. Proin sollicitudin convallis sodales. Maecenas venenatis risus diam, nec dignissim ex laoreet in. Morbi sed mattis turpis, ac fermentum tellus. Mauris feugiat, metus posuere molestie porta, enim nulla efficitur elit, nec rutrum sem erat sed nisi.
-    </p>
-    <img src="{% static 'frog.png' %}" id="pic2"/>
-</div>
 
-
-<div> <p id="title1"> Analysis </p></div>
-<div id="main1">
-    <p id="text1">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla sapien, volutpat nec purus at, ultricies suscipit metus. Quisque ultrices pharetra magna ut elementum. Ut hendrerit felis sit amet justo blandit, nec semper enim suscipit. Aliquam mollis, turpis sit amet scelerisque tincidunt, mi nulla commodo quam, sed lacinia dui arcu quis urna. Praesent luctus tempor arcu at gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer quis tincidunt urna, ac tempus diam. Nulla condimentum, nulla vitae sodales dictum, purus tellus auctor lorem, in suscipit nunc lorem nec sapien.
     </p>
-    <img src="{% static 'pret.jpg' %}" id="pic1"/>
-</div>
-<div id="main2">
-    <p id="text2">
-        Pellentesque semper tellus magna, vel ullamcorper metus laoreet ut. Mauris suscipit faucibus vulputate. Duis in purus nibh. Integer pharetra semper maximus. Sed rhoncus nibh et turpis pulvinar commodo. Cras a consectetur sem, vitae pellentesque nulla. Sed sed arcu id leo ornare auctor vitae at enim. Ut quis tellus leo. Ut ut interdum nisi. Suspendisse at dapibus sapien, sed consectetur elit. Proin sollicitudin convallis sodales. Maecenas venenatis risus diam, nec dignissim ex laoreet in. Morbi sed mattis turpis, ac fermentum tellus. Mauris feugiat, metus posuere molestie porta, enim nulla efficitur elit, nec rutrum sem erat sed nisi.
-    </p>
-    <img src="{% static 'frog.png' %}" id="pic2"/>
+    <img src="{% static 'engrnotes.jpg' %}" id="pic2"/>
 </div>
 
 {% endblock %}
