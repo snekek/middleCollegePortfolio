@@ -24,9 +24,9 @@ p { margin: 0 0 15px 0; font-size: 20px auto; color: #262626; font-family: RW; }
 #pic1 { float: right; }
 #text1 { float: left; margin: 0 0 15px 0; text-align: left; }
 
-#pic1,#pic2,#text1,#text2 {width: 45%; margin:1%; margin-bottom: 3%}
+#pic1,#pic2,#text1,#text2 {width: 45%; margin:1%; margin-bottom: 3%; }
 
-#main2 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: table;}
+#main2 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: table; }
 #pic2 { float: left; }
 #text2 { float: right; margin: 0 0 15px 0; text-align: left; }
 
